@@ -26,8 +26,8 @@ epochs = 40
 img_rows, img_cols = 28, 28
 
 
-data = np.load("MNIST/data_training.npy")
-labels = np.load("MNIST/labels_training.npy")
+data = np.load("MNIST/data_training.npy")  # Need to be reconfigured to your folder
+labels = np.load("MNIST/labels_training.npy")  # Need to be reconfigured to your folder
 labels = np.array(labels)
 
 
