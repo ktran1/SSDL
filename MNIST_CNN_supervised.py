@@ -24,11 +24,9 @@ epochs = 40
 # input image dimensions
 img_rows, img_cols = 28, 28
 
-
-data = np.load("MNIST/data_training.npy")  # Need to be reconfigured to your folder
-labels = np.load("MNIST/labels_training.npy")  # Need to be reconfigured to your folder
-labels = np.array(labels)
-
+""" Take mnist from keras """  
+from keras.datasets import mnist
+(data, labels), _ = mnist.load_data()
 
 
 """ Run 5 times with different random selections """
