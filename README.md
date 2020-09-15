@@ -1,7 +1,7 @@
 # SSDL
 Semi-Supervised Dictionary Learning with graph regularized and active points (SSDL-GA)
 
-This is an implementation of paper " SEMI-SUPERVISED DICTIONARY LEARNING WITH GRAPH REGULARIZED AND ACTIVE POINTS " Khanh-Hung TRAN, Fred-Maurice NGOLE MBOULA, Jean-Luc STARCK and Vincent PROST.
+This is an implementation of paper " SEMI-SUPERVISED DICTIONARY LEARNING WITH GRAPH REGULARIZED AND ACTIVE POINTS " Khanh-Hung TRAN, Fred-Maurice NGOLE MBOULA, Jean-Luc STARCK and Vincent PROST. https://arxiv.org/abs/2009.05964
 
 Require : sklearn, keras, scipy
 
